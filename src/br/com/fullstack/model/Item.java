@@ -5,7 +5,7 @@ public class Item {
 	private Integer id;
 	private Integer qtd;
 	private Double valorTotal;
-	private Item item;
+	private Produto produto;
 	
 	
 	public Integer getId() {
@@ -26,12 +26,13 @@ public class Item {
 	public void setValorTotal(Double valorTotal) {
 		this.valorTotal = valorTotal;
 	}
-	public Item getItem() {
-		return item;
+	public Produto getProduto() {
+		return produto;
 	}
-	public void setItem(Item item) {
-		this.item = item;
+	public void setProduto(Produto produto) {
+		this.produto = produto;
 	}
+	
 	
 	
 

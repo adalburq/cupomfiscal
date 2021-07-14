@@ -11,8 +11,7 @@ public class CupomFiscal {
 	private String hora;
 	private String coo;
 	private Double valorTotal;
-	private List<Item> itens;
-	
+	private List<Item> itens;	
 	
 	public Integer getId() {
 		return id;

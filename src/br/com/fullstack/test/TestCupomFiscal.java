@@ -18,7 +18,12 @@ public class TestCupomFiscal {
 		i.setId(1);
 		i.setQtd(2);
 		i.setValorTotal(calculoValorTotalDoItem(p, i));
-		
+		System.out.println("produto:" + i.getProduto());
+		i.setProduto(p);
+		System.out.println("produto:" + i.getProduto());
+		p.getDesc();
+		i.getProduto().getDesc();
+
 		CupomFiscal c = new CupomFiscal();
 		c.setId(15);
 		c.setCnpj("12345678113456");
