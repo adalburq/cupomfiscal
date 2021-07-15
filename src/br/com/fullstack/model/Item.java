@@ -7,7 +7,6 @@ public class Item {
 	private Double valorTotal;
 	private Produto produto;
 	
-	
 	public Integer getId() {
 		return id;
 	}
@@ -33,10 +32,9 @@ public class Item {
 		this.produto = produto;
 	}
 	
-<<<<<<< HEAD
-=======
+	
+	
+	
 	
 	
 
->>>>>>> b84da5b1b1ee18456b78016894de314195a7c2d8
-}

@@ -24,7 +24,7 @@ public class TestCupomFiscal {
 		i.setId(1);
 		i.setQtd(2);
 		i.setValorTotal(calculoValorTotalDoItem(p, i));
-<<<<<<< HEAD
+
 		i.setProduto(p);
 		
 		Item i1 = new Item();
@@ -33,14 +33,14 @@ public class TestCupomFiscal {
 		i1.setValorTotal(calculoValorTotalDoItem(p1, i1));
 		i1.setProduto(p1);
 		
-=======
+
 		System.out.println("produto:" + i.getProduto());
 		i.setProduto(p);
 		System.out.println("produto:" + i.getProduto());
 		p.getDesc();
 		i.getProduto().getDesc();
 
->>>>>>> b84da5b1b1ee18456b78016894de314195a7c2d8
+
 		CupomFiscal c = new CupomFiscal();
 		c.setId(15);
 		c.setCnpj("12345678113456");
@@ -53,6 +53,7 @@ public class TestCupomFiscal {
 		System.out.println(c.getNome() + " " + c.getItens().size());
 		System.out.println(c.getItens().get(0).getProduto().getDesc());
 		System.out.println(c.getItens().get(1).getProduto().getDesc());
+		
 		
 		//c.setItens(); proxima aula
 	
