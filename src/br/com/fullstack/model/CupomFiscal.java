@@ -1,5 +1,6 @@
 package br.com.fullstack.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CupomFiscal {
@@ -11,7 +12,7 @@ public class CupomFiscal {
 	private String hora;
 	private String coo;
 	private Double valorTotal;
-	private List<Item> itens;
+	private List<Item> itens = new ArrayList<Item>();
 	
 	
 	public Integer getId() {
